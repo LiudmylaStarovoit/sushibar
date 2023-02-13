@@ -1,1 +1,1 @@
-# sushibar
+https://liudmylastarovoit.github.io/sushibar/
