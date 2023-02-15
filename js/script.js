@@ -92,3 +92,4 @@ dowozItem.forEach((item, i) => {
     });
 });
 
+new WOW().init();
