@@ -1,0 +1,66 @@
+
+.dowoz {
+    margin-top: 230px;
+    min-height: 900px;
+    .katowice {
+        height: 650px;
+        margin-top: 0 !important;
+    }
+    &-title {
+        font-size: 55px;
+        font-weight: 900;
+        text-align: center;
+    }
+    &-item {
+        outline: 1px solid #000;
+        padding: 10px;
+        width: 120px;
+        cursor: pointer;
+        &-strefa {
+            font-weight: 700;
+        }
+        &-active {
+            background-color: #000;
+            color: #FFF;
+        }
+    }
+    .strefa-1 {
+        fill: #11402F;
+/*         stroke-width: 25px;
+        stroke: #000; */
+    }
+    &-info {
+        width: 50%;
+        height: 510px;
+        padding: 20px;
+        margin-right: 20px;
+        outline: 1px solid #000;
+        &-inne {
+            margin-bottom: 10px;
+        }
+        &-strefa {
+            margin-bottom: 20px;
+            &-title {
+                font-weight: 900;
+            }
+            &-subtitle {
+                font-weight: 500;
+            }
+        }
+        &-divider {
+            width: 95%;
+            height: 1px;
+            background-color: #000;
+            display: block;
+            margin: 0 auto;
+        }
+        &-item {
+            height: 130px;
+            &:nth-child(2) {
+                &:nth-child(2) {
+                    height: 160px;
+                }
+            }
+        }
+    }
+}
